@@ -1955,7 +1955,7 @@ footer {
   .hamburger {
     /* display: block; */
     position: absolute;
-    top: 5px;
+    top: -2rem;
     /* right: 0; */
     width: 100vw;
     height: 115px;
