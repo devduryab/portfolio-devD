@@ -1953,8 +1953,8 @@ footer {
 
   .hamburger {
     /* display: block; */
-    position: fixed;
-    top: 0px;
+    position: absolute;
+    top: 5px;
     /* right: 0; */
     width: 100vw;
     height: 115px;
@@ -2143,7 +2143,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+
   html {
     font-size: 50%;
   }
